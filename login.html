@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sign In | Resume App</title>
+</head>
+<body>
+    <div id="login-wrapper">
+
+        <div class="content">
+
+            <div class="switcher">
+                <label for="" class="label">Signin</label>
+
+                <label class="switch">
+                    <input type="checkbox" id="switch">
+                    <span class="slider"></span>
+                </label>
+
+                <label for="" class="label">Signup</label>
+            </div>
+
+            <p class="error"></p>
+            
+            <div class="form-container">
+
+                <div id="signin-form">
+
+                    <h2 class="section-heading">Signin</h2>
+    
+                    <form action="" name="formSignin" id="formSignin">
+    
+                        <div class="row">
+                            <input type="text" name="username-signin" id="username-signin" placeholder="Username" required>
+                        </div>
+        
+                        <div class="row">
+                            <input type="password" name="password-signin" id="password-signin" placeholder="Password" required>
+                        </div>
+    
+                        <div class="row flex">
+                            <input type="checkbox" name="keepLoggedIn" id="keepLoggedIn">
+                            <label for="keepLoggedIn">Save my data for future</label>
+                        </div>
+    
+                        <div class="row">
+                            <button type="submit" class="btn" name="signin-btn">Sign In</button>
+                        </div>
+
+                        <div class="row">
+                            <a onclick="showPassword();" id="forgot-password">Forgot password ?</a>
+                        </div>
+        
+                    </form>
+    
+                </div>
+    
+                <div id="signup-form">
+    
+                    <h2 class="section-heading">Signup</h2>
+                    
+                    <form action="" name="formSignup" id="formSignup">
+    
+                        <div class="row">
+                            <input type="text" name="username-signup" id="username-signup" placeholder="Username" required>
+                        </div>
+        
+                        <div class="row">
+                            <input type="password" name="password-signup" id="password-signup" placeholder="Password" required>
+                        </div>
+
+                        <div class="row">
+                            <input type="password" name="password-confirm" id="password-confirm" placeholder="Confirm Password" required>
+                        </div>
+
+                        <div class="row flex">
+                            <input type="checkbox" name="acceptance" id="acceptance" required>
+                            <label for="acceptance">I agree with the terms & policies</label>
+                        </div>
+
+                        <div class="row">
+                            <button type="submit" class="btn" name="signup-btn">Sign Up</button>
+                        </div>
+        
+                    </form>
+    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>

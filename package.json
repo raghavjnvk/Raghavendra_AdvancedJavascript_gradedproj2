@@ -1,0 +1,22 @@
+{
+  "name": "assignment_2_javascript",
+  "version": "1.0.0",
+  "description": "JavaScript Assignment 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/raghavjnvk/Raghavendra_AdvancedJavascript_gradedproj2.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Raghavendra Jamili",
+  "license": "MAH",
+  "bugs": {
+    "url": "https://github.com/raghavjnvk/Raghavendra_AdvancedJavascript_gradedproj2/issues"
+  },
+  "homepage": "https://github.com/raghavjnvk/Raghavendra_AdvancedJavascript_gradedproj2#readme"
+}
